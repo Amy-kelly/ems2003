@@ -10,4 +10,4 @@ def index(request):
 
 def demo(request):
     print("hello world")
-    re
+    return HttpResponse("本次提交成功")
