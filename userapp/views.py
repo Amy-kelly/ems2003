@@ -6,7 +6,8 @@ def login(request):
     return HttpResponse("登陆成功")
 
 def index(request):
-    return
+    print("分支即便有误，切换到master也没有影响")
+    return HttpResponse("强大的分支")
 
 def demo(request):
     print("hello world")
