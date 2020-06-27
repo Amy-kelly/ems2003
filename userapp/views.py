@@ -6,4 +6,8 @@ def login(request):
     return HttpResponse("登陆成功")
 
 def index(request):
-    return 
+    return
+
+def demo(request):
+    print("hello world")
+    re
