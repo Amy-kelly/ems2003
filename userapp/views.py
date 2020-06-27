@@ -12,3 +12,4 @@ def index(request):
 def demo(request):
     print("hello world")
     return HttpResponse("本次提交成功")
+
